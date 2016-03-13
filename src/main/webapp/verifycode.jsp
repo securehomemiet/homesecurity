@@ -58,13 +58,13 @@ emailu=request.getParameter("email");
 	ps.setString(2,name);
  int	a=ps.executeUpdate();
  con.close();
-  String sendgrid_username  = "nuwynVTukH";
-	        String sendgrid_password  = "IoLtUG5RUi7l0388";
+  String sendgrid_username  = "kkkkkkkkkk";
+	        String sendgrid_password  = "kkkkkkkkkkkk";
 	       
 	        SendGrid sendgrid = new SendGrid(sendgrid_username, sendgrid_password);
 	        SendGrid.Email email = new SendGrid.Email();
 	        email.addTo(emailu);
-	        email.setFrom("kaushalkumar2794@gmail.com");
+	        email.setFrom("kkkkkkkkkkkkkkkkkkkk");
 	      email.setFromName("Home Security");
 	        //email.setReplyTo("yyy@in.ibm.com");
 	        String mess="Your account verification code is"+coupen;
@@ -192,7 +192,7 @@ emailu=request.getParameter("email");
         </section>
       </div><!-- /.content-wrapper -->
       <footer class="main-footer">
-         ALL RIGHTS RESERVED. COPYRIGHT © 2015. Project undertaking FINAL YEAR BTECH MIET,MEERUT      
+         ALL RIGHTS RESERVED. COPYRIGHT Â© 2015. Project undertaking FINAL YEAR BTECH MIET,MEERUT      
       </footer>
 
 
