@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/javamail1_4_4/javamail-1.4.4/mail.jar"/>
+	<classpathentry kind="lib" path="G:/jaf-1_0_2-upd2/jaf-1.0.2/activation.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/sendgrid-java-2.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/json-20140107.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/smtpapi-java-1.2.0.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/mail jar/httpmime-4.3.jar/httpmime-4.3.jar"/>
+	<classpathentry kind="lib" path="G:/FINAL/database/jar/db2jcc.jar"/>
+	<classpathentry kind="lib" path="G:/FINAL/database/jar/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="G:/FINAL/database/jar/javax.servlet_3.0.0.v201112011016.jar"/>
+	<classpathentry kind="lib" path="G:/FINAL/database/jar/nosqljson.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/twilio jar/twilio-java-sdk-5.5.1.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/twilio jar/twilio-java-sdk-5.5.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/twilio jar/twilio-java-sdk-5.5.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/finalproject/twilio jar/twilio-java-sdk-5.5.1-sources.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

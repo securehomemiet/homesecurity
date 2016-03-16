@@ -1,0 +1,24 @@
+various refrences used in the website are
+-W3school.com-getbootstrap.com- jQuery OwlCarousel v1.3.2
+ *
+ *  Copyright (c) 2013 Bartosz Wojciechowski
+ *  http://www.owlgraphic.com/owlcarousel/
+ *
+/* Modernizr 2.8.3 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-flexboxlegacy-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-cssclasses-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load
+ */// SmoothScroll for websites v1.2.1
+// Licensed under the terms of the MIT license.
+
+// People involved
+//  - Balazs Galambosi (maintainer)  
+//  - Michael Herf     Abdullah A Almsaeed
+ * Date: 4 Jan 2014
+ ,github.com
+/*!
+ * Bootstrap's Gruntfile
+ * http://getbootstrap.com
+ * Copyright 2013-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*!
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license 
