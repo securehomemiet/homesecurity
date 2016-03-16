@@ -39,16 +39,16 @@
 
 <%
 
-  String sendgrid_username  = "nuwynVTukH";
-	        String sendgrid_password  = "IoLtUG5RUi7l0388";
+  String sendgrid_username  = "username";
+	        String sendgrid_password  = "password";
 	       
 	        SendGrid sendgrid = new SendGrid(sendgrid_username, sendgrid_password);
 	        SendGrid.Email email = new SendGrid.Email();
-	        email.addTo("anshikabluemix@gmail.com");
+	        email.addTo("");
 	        email.setFrom("kaushalkumar2794@gmail.com");
-	      email.setFromName("MIET HOSTEL MANAGMENT");
+	      email.setFromName("");
 	        //email.setReplyTo("yyy@in.ibm.com");
-	        String mess=request.getParameter("https://hmsmiet.au-syd.mybluemix.net/validate.jsp?id=120681002&c=5687945");
+	        String mess=request.getParameter("("<credentials>","<credentials>","<credentials>");");
 	        email.setSubject(mess);
 	       //email.setHtml(coupen);
 	        

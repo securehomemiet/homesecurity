@@ -52,14 +52,14 @@ response.sendRedirect("user.jsp");
 emailu=request.getParameter("email");	
  String name=request.getParameter("uname");	
  	Class.forName("com.ibm.db2.jcc.DB2Driver");
- 	Connection	con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+ 	Connection	con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 	PreparedStatement ps= con.prepareStatement("UPDATE USER SET COUPEN=? where USERNAME=? ");
 	ps.setString(1,coupen);
 	ps.setString(2,name);
  int	a=ps.executeUpdate();
  con.close();
-  String sendgrid_username  = "nuwynVTukH";
-	        String sendgrid_password  = "IoLtUG5RUi7l0388";
+  String sendgrid_username  = "username";
+	        String sendgrid_password  = "password";
 	       
 	        SendGrid sendgrid = new SendGrid(sendgrid_username, sendgrid_password);
 	        SendGrid.Email email = new SendGrid.Email();

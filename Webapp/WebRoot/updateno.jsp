@@ -29,7 +29,7 @@ response.sendRedirect("index.jsp");
  int a=0;
  String name=(String)session.getAttribute("user");
 Class.forName("com.ibm.db2.jcc.DB2Driver");
-			Connection	con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+			Connection	con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 String mob1=request.getParameter("mob1");
 String mob2=request.getParameter("mob2");
 String mob3=request.getParameter("mob3");

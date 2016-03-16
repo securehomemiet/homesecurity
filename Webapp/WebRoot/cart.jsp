@@ -25,7 +25,7 @@ response.sendRedirect("login.jsp");
  <%
  
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
-		Connection con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");String id=request.getParameter("id");	
+		Connection con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");String id=request.getParameter("id");	
 int item=Integer.parseInt(request.getParameter("item"));
 String name=(String)session.getAttribute("user");
 if(id.equals("service1"))

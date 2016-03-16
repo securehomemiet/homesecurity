@@ -41,7 +41,7 @@ uname=(String)session.getAttribute("owner");
 <%
  name=(String)session.getAttribute("user");
 Class.forName("com.ibm.db2.jcc.DB2Driver");
-			con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+			con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 
 
  ps= con.prepareStatement("SELECT * from CART where EMAIL=?");

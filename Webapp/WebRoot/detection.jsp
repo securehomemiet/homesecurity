@@ -34,7 +34,7 @@ String[] date={"l","l"};
 <%
  
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
-			Connection	con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+			Connection	con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 name=(String)session.getAttribute("user");
 
 detectne=Integer.parseInt(request.getParameter("detectno"));

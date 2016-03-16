@@ -50,7 +50,7 @@ response.sendRedirect("user.jsp");
  String name=request.getParameter("uname");	
   String code=request.getParameter("coupen");	
  	Class.forName("com.ibm.db2.jcc.DB2Driver");
- 	Connection	con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+ 	Connection	con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 	PreparedStatement ps= con.prepareStatement("SELECT * from USER where USERNAME=? ");
 
 	ps.setString(1,name);
@@ -76,4 +76,4 @@ if(rs.next()){
   <%=coupen %>
 coupen code wronge generate new code<a href="login.jsp"> Try Again</a>
 <%} }else{%>
-fffff<%} %>
+<%} %>

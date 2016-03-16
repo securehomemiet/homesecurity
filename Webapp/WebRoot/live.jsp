@@ -34,7 +34,7 @@ String nocam="0",sub="0",detect="0",ser="0",email="not available",detected="kk",
 <%
  
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
-			Connection	con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+			Connection	con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 String name=(String)session.getAttribute("user");
 
 

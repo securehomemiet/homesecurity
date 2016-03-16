@@ -17,7 +17,7 @@
 <%
  HttpSession session=request.getSession(false);
 Class.forName("com.ibm.db2.jcc.DB2Driver");
-Connection con=DriverManager.getConnection("jdbc:db2://awh-yp-small02.services.dal.bluemix.net:50000/BLUDB","dash110868","NPfmN4joH0P9");
+Connection con=DriverManager.getConnection("<credentials>","<credentials>","<credentials>");
 String email1=request.getParameter("email");	
 String fname1=request.getParameter("fname");
 String lname1=request.getParameter("lname");	
