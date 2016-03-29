@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/mysql-connector-java-5.1.37/mysql-connector-java-5.1.37-bin.jar"/>
+	<classpathentry kind="lib" path="C:/opencv 3.0/build/java/opencv-300.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/opencv 3.0/build/java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/db2/db2jcc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/db2/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/uploading a file/commons-net-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/homesecurity jars/twilio-java-sdk-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/homesecurity jars/twilio-java-sdk-5.5.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/homesecurity jars/twilio-java-sdk-5.5.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/homesecurity jars/twilio-java-sdk-5.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GAURAV/Desktop/homesecurity jars/commons-io-2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

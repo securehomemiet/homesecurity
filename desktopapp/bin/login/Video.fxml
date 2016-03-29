@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="209.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="login.VideoController">
+   <top>
+    <TilePane prefHeight="71.0" prefWidth="522.0">
+      <children>
+        <Label prefHeight="22.0" prefWidth="58.5" text="Username:" />
+        <TextField fx:id="username" alignment="CENTER_LEFT" editable="true" prefHeight="22.0" prefWidth="129.0" promptText="Enter your username" text="Username" />
+        <Label prefWidth="59.0" text="Password:" />
+        <PasswordField alignment="BOTTOM_LEFT" fx:id="password" prefHeight="25.0" prefWidth="200.0" promptText="Enter your password" text="Password" />
+        <Button fx:id="logbutton" minWidth="9.0" mnemonicParsing="false" onAction="#checklogin" prefWidth="69.0" text="Login" />
+      </children>
+    </TilePane>
+  </top>
+  <bottom>
+    <HBox alignment="CENTER">
+      <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+      </padding>
+      <Button fx:id="button" alignment="CENTER" onAction="#startCamera" text="Start camera" />
+    </HBox>
+  </bottom>
+  <center>
+    <ImageView fx:id="currentFrame" />
+  </center>
+  <right>
+    <VBox alignment="CENTER_LEFT" spacing="10.0">
+      <padding>
+        <Insets left="10.0" right="20.0" />
+      </padding>
+      <ImageView fx:id="histogram" />
+      <Text text="Controls" />
+      <CheckBox fx:id="grayscale" text="Show in gray scale" />
+    </VBox>
+  </right>
+  
+</BorderPane>

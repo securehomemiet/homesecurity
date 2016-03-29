@@ -1,0 +1,24 @@
+{
+  "sid": "SM4ad378281e5240bc887a2321b9dc25a2",
+  "date_created": "Sun, 22 Nov 2015 15:11:15 +0000",
+  "date_updated": "Sun, 22 Nov 2015 15:11:15 +0000",
+  "date_sent": null,
+  "account_sid": "ACa8a72a283e20fbee05f6bf979d5c93e6",
+  "to": "+919125100366",
+  "from": "+18323042529",
+  "messaging_service_sid": null,
+  "body": "hii",
+  "status": "queued",
+  "num_segments": "1",
+  "num_media": "0",
+  "direction": "outbound-api",
+  "api_version": "2010-04-01",
+  "price": null,
+  "price_unit": "USD",
+  "error_code": null,
+  "error_message": null,
+  "uri": "/2010-04-01/Accounts/ACa8a72a283e20fbee05f6bf979d5c93e6/Messages/SM4ad378281e5240bc887a2321b9dc25a2.json",
+  "subresource_uris": {
+    "media": "/2010-04-01/Accounts/ACa8a72a283e20fbee05f6bf979d5c93e6/Messages/SM4ad378281e5240bc887a2321b9dc25a2/Media.json"
+  }
+}
